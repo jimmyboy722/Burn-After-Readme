@@ -1,32 +1,61 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  if (license !== "none") {
+    return `[GitHub License](https://img.shields.io/badge/license-${license.replace( "", "_" )}-green.svg)`;
+    // ABOVE - MARKDOWN LANGUAGE USED FOR  URL LINK '[]()' FOR  GREEN LICENSE SVG IMAGE BADGE 
+  }
+  return '';
+  // ABOVE - OTHERWISE RETURNS AN EMPTY STRING PER INSTRUCTIONS
+};
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (license !== 'none') {
+    // IF LICENSE IS NOT 'NONE', AS IN PREVIOUS FUNCTION, RETURNS FOLLOWING STRING '\N ENSURES NEW LINE IN OUTPUT
+    return `\n [License](#license) \n`; 
+    // MARKDOWN LANGUAGE FOR LICENSE LINK '[]()'
+  }
+  return ' '; // RETURNS EMPTY STRING
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if (license !== 'none') {
+    return `## LICENSE
+    
+    This project is covered under the ${license} license.`;
+    // TEMPLATE LITERAL TO INSERT 'LICENSE' VALUE IN CREATION OF LICENSE SECTION
+  }
+    return '';
+};
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  // EVERYTHING AFTER THE BACKTICK IS INCLUDED IN THE MARKDOWN
   return `# ${data.title}
-
+  ${ renderLicenseBadge ( data.license)}
 
 ## Description
+
+${data.description}
 
 ## Table of Contents 
 
 - [Installation](#installation)
+
 - [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+${renderLicenseLink (data.license)}
+- [Contributing](#Contributing)
+
+- [Tests](#Tests)
+
+- [Questions](#Questions)
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
 
 ## Usage
 
