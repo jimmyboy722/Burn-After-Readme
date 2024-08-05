@@ -1,5 +1,14 @@
 # Professional README Generator Starter Code
 
+## Table of contents
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Contributing](#Contributing)
+- [License](#License)
+- [Documentation](#Documentation)
+- [In Summary](#In-Summary)
+
+  
 ## Why do web dev projects need a good README file? The answer to this question is extensive, so I'll stick to the main ideas...
 - Provides a description of what your program/product is used for along with some insite as to why it was created.
 - Evinces the value of your project.
@@ -30,7 +39,10 @@ The wollowing resources will help you as they helped me understand and build a q
 - [Microsoft's VS Code README](https://github.com/microsoft/vscode) for a great example
 - [NPM's website for node packages](https://www.npmjs.com/package/inquirer/v/8.2.4)
 
-## In Summary
+## In-Summary
 The README of any project could be what makes it sink or swim. First impressions are the most important, and I hope I've made a good one on you. 
 The following is a link to a walkthrough video demonstrating the functionality of this project followed by the email where I can be reached for any questions.
+- [Link to video walkthrough](https://watch.screencastify.com/v/Hf0lk2GGZDQkME5sMz7g)
+- Email me @ jeckman722@gmail.com
+  
 
