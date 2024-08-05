@@ -42,7 +42,7 @@ The wollowing resources will help you as they helped me understand and build a q
 ## In-Summary
 The README of any project could be what makes it sink or swim. First impressions are the most important, and I hope I've made a good one on you. 
 The following is a link to a walkthrough video demonstrating the functionality of this project followed by the email where I can be reached for any questions.
-- [Link to video walkthrough](https://watch.screencastify.com/v/Hf0lk2GGZDQkME5sMz7g)
+- [Link to video walkthrough](https://watch.screencastify.com/v/CGoUxr6J69x7si2WxGY6)
 - Email me @ jeckman722@gmail.com
   
 
