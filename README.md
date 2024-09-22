@@ -34,7 +34,7 @@ The following are some ways in which you can participate in this project:
 - This is licensed under the MIT license
 
 ## Documentation
-The wollowing resources will help you as they helped me understand and build a quality README file:
+The following resources will help you as they helped me understand and build a quality README file:
 - [Full Stack's Professional README blog](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 - [Microsoft's VS Code README](https://github.com/microsoft/vscode) for a great example
 - [NPM's website for node packages](https://www.npmjs.com/package/inquirer/v/8.2.4)
